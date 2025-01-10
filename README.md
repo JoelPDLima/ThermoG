@@ -14,10 +14,12 @@ Before running the ThermoG algorithm, it's crucial to prepare your input data co
 **Input File Format:**
 - The algorithm expects input data in **CSV** format with the following structure:
   
+  X, Y, Bouguer
 
-X, Y, Bouguer
-100000, 200000, -150.3
-100500, 200500, -145.2
+  100000, 200000, -150.3
+  
+  100500, 200500, -145.2
+  
 
   - **X**: Easting coordinate in meters.
   - **Y**: Northing coordinate in meters.
